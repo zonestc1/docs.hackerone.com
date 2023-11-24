@@ -8,6 +8,7 @@ module.exports = {
     },
   },
   plugins: [
+    'gatsby-plugin-meta-redirect',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
@@ -46,7 +47,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-49905813-10",
+        trackingId: "G-5MPJXDDK9D",
         head: false,
         anonymize: true,
         respectDNT: true,
